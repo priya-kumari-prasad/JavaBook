@@ -5,6 +5,7 @@ class senFaculty {
     String name1, name2;
     byte age1, age2;
     Scanner inp = new Scanner(System.in);
+    inp.close();
 
     System.out.println("Enter the name of both person : ");
     name1 = inp.nextLine();
@@ -12,7 +13,7 @@ class senFaculty {
     System.out.println("Enter the age of both person: ");
     age1 = inp.nextByte();
     age2 = inp.nextByte();
-    inp.close();
+
     if (age1 > age2) {
       System.out.println(name1 + " is Senior faculty");
     } else
