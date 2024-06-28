@@ -6,6 +6,7 @@ class evenOddSum {
     Scanner inp = new Scanner(System.in);
     System.out.println("Enter Integer value: ");
     int num = inp.nextInt();
+
     if (num % 2 == 0) {
       evenSum = evenSum + num;
     } else {
