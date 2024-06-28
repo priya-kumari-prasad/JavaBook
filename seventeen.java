@@ -11,7 +11,8 @@ class evenOddSum {
     } else {
       oddSum += num;
     }
-
+    System.out.println("Sum of even Integers = " + evenSum);
+    System.out.println("Sum of odd Integers = " + oddSum);
   }
 
 }
