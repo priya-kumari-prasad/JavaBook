@@ -9,6 +9,7 @@ class simpCalc {
     int num2 = sc.nextInt();
     System.out.println("Enter Operator which you want to perform: ('+', '-', '*', '/', '%')");
     char Operator = sc.next().charAt(0);
+    sc.close();
     int result = 0;
 
     switch (Operator) {

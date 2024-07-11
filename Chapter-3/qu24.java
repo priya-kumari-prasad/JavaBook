@@ -9,6 +9,7 @@ class divLarge {
     System.out.println("Enter two numbers: ");
     num1 = sc.nextInt();
     num2 = sc.nextInt();
+    sc.close();
     if (num1 > num2 && num2 != 0) {
       div = num1 / num2;
       System.out.println("Division = " + div);

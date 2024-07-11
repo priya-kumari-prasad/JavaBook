@@ -5,6 +5,7 @@ class hillPatt {
     Scanner scanner = new Scanner(System.in);
     System.out.println("Enter number: ");
     int num = scanner.nextInt();
+    scanner.close();
     System.out.println("Pattern is: ");
     for (int i = 1; i < num; i++) {
       for (int j = i; j <= num; j++) {

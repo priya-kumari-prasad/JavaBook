@@ -13,6 +13,7 @@ class avgTemp {
     day5 = sc.nextInt();
     day6 = sc.nextInt();
     day7 = sc.nextInt();
+    sc.close();
     temperatures = (day1 + day2 + day3 + day4 + day5 + day6 + day7) / 7;
     System.out.println("Average temperatures = " + temperatures);
 

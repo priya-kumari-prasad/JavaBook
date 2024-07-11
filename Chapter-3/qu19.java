@@ -4,7 +4,7 @@ class avg {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     int num;
-    int totcount = 0;
+    // int totcount = 0;
     float avg = 0, sum = 0;
     System.out.println("Enter values: ");
     String input = sc.nextLine();

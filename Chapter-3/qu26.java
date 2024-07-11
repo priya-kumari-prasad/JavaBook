@@ -6,6 +6,7 @@ class avg {
     Scanner scanner = new Scanner(System.in);
     System.out.println("Enter number of element: ");
     num = scanner.nextInt();
+    scanner.close();
     for (int i = 1; i <= num; i++) {
       System.out.print("Enter number " + i + " : ");
       double number = scanner.nextDouble();

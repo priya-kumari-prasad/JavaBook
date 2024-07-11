@@ -6,6 +6,7 @@ class printSqu {
     Scanner scanner = new Scanner(System.in);
     System.out.println("Enter number to print square till number : ");
     num = scanner.nextInt();
+    scanner.close();
     int sum = 0;
 
     for (int i = 1; i <= num; i++) {

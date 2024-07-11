@@ -8,6 +8,7 @@ class rightTriangle {
     side1 = inp.nextFloat();
     side2 = inp.nextFloat();
     side3 = inp.nextFloat();
+    inp.close();
 
     if ((side1 * side1) == side2 + side3 || (side2 * side2) == side1 + side3 || (side3 * side3) == side1 + side2) {
       System.out.println("The triangle is right Triangle");

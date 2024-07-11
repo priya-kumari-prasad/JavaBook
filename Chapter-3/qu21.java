@@ -6,6 +6,7 @@ class table {
     Scanner sc = new Scanner(System.in);
     System.out.println("Enter number for printing table: ");
     num = sc.nextInt();
+    sc.close();
     do {
       System.out.println(num + " * " + i + " = " + (num * i));
       i++;

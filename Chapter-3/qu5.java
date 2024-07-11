@@ -6,6 +6,7 @@ class interest {
     Scanner inp = new Scanner(System.in);
     System.out.println("Enter amount of loan in Rs. ");
     loanAmount = inp.nextDouble();
+    inp.close();
     if (loanAmount <= 7000) {
       interest = 0.6;
     } else if (loanAmount <= 10000) {

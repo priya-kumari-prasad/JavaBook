@@ -6,6 +6,7 @@ public class qu2 {
     Scanner sc = new Scanner(System.in);
     System.out.println("Enter an integer b/w 0 and 35: ");
     num = sc.nextInt();
+    sc.close();
     if (num >= 0 && num <= 35) {
       if (num >= 0 && num < 10) {
         System.out.println("number = " + num);

@@ -6,6 +6,7 @@ class pattern {
     Scanner scanner = new Scanner(System.in);
     System.out.println("Enter number: ");
     num = scanner.nextInt();
+    scanner.close();
     System.out.println("Pattern: ");
     for (int rows = 1; rows <= num; rows++) {
       for (int cols = rows; cols <= num; cols++) {

@@ -14,6 +14,7 @@ class maxSalary {
     salary1 = sc.nextInt();
     salary2 = sc.nextInt();
     salary3 = sc.nextInt();
+    sc.close();
     if ((salary1 > salary2) && (salary1 > salary3)) {
       System.out.println(nm1 + " has Maximum Salary");
     } else if ((salary2 > salary1) && (salary2 > salary3)) {

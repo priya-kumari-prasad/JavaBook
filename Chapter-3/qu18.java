@@ -5,6 +5,7 @@ class prime {
     int num;
     Scanner inp = new Scanner(System.in);
     System.out.println("Enter number to check Prime: ");
+    inp.close();
     for (num = inp.nextInt(); num > 2;) {
       boolean isPrime = true;
       for (int i = 2; i < num; i++) {
@@ -21,6 +22,7 @@ class prime {
         break;
       }
     }
+
   }
 
 }

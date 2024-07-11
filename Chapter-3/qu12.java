@@ -20,6 +20,7 @@ class fibonacci {
     Scanner inp = new Scanner(System.in);
     System.out.println("Enter number b/w 2 to 100 to find fibonacci Series: ");
     num = inp.nextInt();
+    inp.close();
 
     if (num >= 2 && num <= 100) {
       for (int i = 2; i <= num; i++) {

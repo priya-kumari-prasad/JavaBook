@@ -7,6 +7,7 @@ class calcSales {
     Scanner sc = new Scanner(System.in);
     System.out.println("Enter sales value: ");
     sales = sc.nextFloat();
+    sc.close();
     if (sales < 1000) {
       System.out.println("Sales = " + sales + " So, There is no Commission.");
     } else if (sales > 1000 && sales < 5000) {
