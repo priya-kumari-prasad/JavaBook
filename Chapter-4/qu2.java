@@ -16,7 +16,6 @@ class Student {
 class Main {
   public static void main(String[] args) {
     Student student1 = new Student(1, "Alice");
-
     // Call the display method to show the details of student1
     student1.display();
   }
