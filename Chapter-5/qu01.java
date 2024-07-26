@@ -1,59 +1,54 @@
-import java.util.*;
-
-class PrintWords {
+class WordSeries {
   public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
-    // System.out.println("Enter a Number: ");
-    // int num = sc.nextInt();
-    int num = 345;
+    int num = 752;
     int digit, reversed = 0;
     while (num != 0) {
       digit = num % 10;
       reversed = reversed * 10 + digit;
       num /= 10;
+    }   
 
-    }
-    while (reversed > 0) {
+    while (reversed != 0) {
       digit = reversed % 10;
       reversed /= 10;
       switch (digit) {
         case 1:
-          System.out.print("one ");
+          System.out.print("One" + "  ");
           break;
         case 2:
-          System.out.print("two ");
+          System.out.print("Two ");
           break;
         case 3:
-          System.out.print("three ");
+          System.out.print("Three ");
           break;
         case 4:
-          System.out.print("four ");
+          System.out.print("Four ");
           break;
         case 5:
-          System.out.print("five");
+          System.out.print("Five ");
           break;
         case 6:
-          System.out.print("six ");
+          System.out.print("Six ");
           break;
         case 7:
-          System.out.print("seven ");
+          System.out.print("Seven ");
           break;
+
         case 8:
-          System.out.print("eight ");
+          System.out.print("Eight ");
           break;
         case 9:
-          System.out.print("nine ");
+          System.out.print("Nine ");
           break;
         case 0:
-          System.out.print("zero ");
+          System.out.print("Zero ");
           break;
         default:
-          System.out.println("Invalid input");
+          System.out.print("Wrong input");
           break;
       }
-
+      
     }
     System.out.println();
-
   }
 }
