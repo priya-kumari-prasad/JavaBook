@@ -1,7 +1,8 @@
 class getChar {
   public static void main(String[] args) {
-    String  name[] = new String[]{};
-    System.out.println(name[4]);
+   char[] ch = {'A','a','d','h','y','a'};
+   String name = new String(ch);
+    System.out.println(name);
   }
   
 }
