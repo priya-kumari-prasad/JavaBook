@@ -4,5 +4,4 @@ class Concate {
     System.out.println(s1.concat(" Barnwal"));
     System.out.println(s1);
   }
-  
 }
