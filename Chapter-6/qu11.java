@@ -1,3 +1,4 @@
-public class qu11 {
+class sameData {
+  
   
 }
