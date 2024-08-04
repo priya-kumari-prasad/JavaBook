@@ -1,7 +1,8 @@
 class lastIndex {
   public static void main(String[] args) {
     String str = "Aadhya Barnwal";
-    System.out.println(str.indexOf(str, str.length()));
+    System.out.println(str.lastIndexOf("l"));
+    // System.out.println(str.length());
   }
   
 }
