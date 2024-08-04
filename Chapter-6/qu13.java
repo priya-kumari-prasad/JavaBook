@@ -13,8 +13,7 @@ class date_time {
     String formattedDateTime = now.format(formate);
 
     //print the formatted date and time
-    System.out.println("Current Date and Time: ");
+    System.out.println("Current Date and Time: "+formattedDateTime);
 
-  }
-  
+  } 
 }
