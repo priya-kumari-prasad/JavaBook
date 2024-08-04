@@ -1,8 +1,8 @@
 class lastIndex {
   public static void main(String[] args) {
-    String str = "Aadhya Barnwal";
-    System.out.println(str.lastIndexOf("l"));
-    // System.out.println(str.length());
+    String str = "I am perfect the way i am. ";
+    String subStr = "perfect";
+    int lastIndex = str.lastIndexOf(subStr);
   }
   
 }
