@@ -4,7 +4,5 @@ class ignoreCase {
     String str2 = "aadhya barnwal";
 
     System.out.println(str1.equalsIgnoreCase(str2));
-  }
-  
-  
+  } 
 }
