@@ -5,7 +5,8 @@ class sameData {
     if(str1.equals(str2)){
       System.out.println("Both contains the same data.");
     }
-    
+    else
+    System.out.println("both contains the different data");
 
   }
   
