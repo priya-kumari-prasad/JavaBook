@@ -2,10 +2,13 @@
 class qu09 {
   public static void main(String[] args) {
     char[] ch = {'h','e','l','l','o'};
-    String[] str ={};
-    System.out.println(ch.length);
-    for(String str1 : str){
-      System.out.println(str1);
+    char[] newChar = new char[ch.length];
+
+    for(int i = 0 ;i<ch.length;i++){
+      newChar[i] = ch[i];
+    }
+    for(char c: newChar){
+      System.out.print(c);
     }
     
   }
