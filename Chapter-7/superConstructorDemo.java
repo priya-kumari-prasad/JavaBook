@@ -1,4 +1,4 @@
-class company{
+/* class company{
   String Sector;
   String name, headOffice;
   public void printCompany(){
@@ -33,4 +33,30 @@ public class MetOverriding {
 
   br.printBrance();
  }
+} */
+
+
+
+
+
+
+class college{
+  String name = "Arts and Science College";
+  String status = "Autonomous";
+  public college(){
+    System.out.println("Name of the College: "+name);
+    System.out.println("Status of the college: "+status);
+  }
+}
+class department extends college{
+  String dname;
+  public department(String dname){
+    super();
+    System.out.println("Department name: "+dname);
+  }
+}
+public class superConstructorDemo{
+  public static void main(String args[]){
+    department d = new department("Computer Science");
+  }
 }
