@@ -59,5 +59,6 @@ class OverridingMethods{
     obj.fuelType = "Petrol";
     obj.color = "Red";
     obj.printDetail();
+    
   }
 }
