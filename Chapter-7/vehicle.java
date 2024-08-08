@@ -1,4 +1,4 @@
-class vehicle {
+/* class vehicle {
   String brandName;
   double price;
   public void vehicleDetails(){
@@ -26,5 +26,38 @@ class main{
     obj.fuelType = "petrol";
     obj.vehicleDetails();
     obj.carDetails();
+  }
+} */
+
+
+
+
+
+//code to illustrate overriding method of the vehicle superclass
+/**
+ * vehicle
+ */
+class vehicle {
+  public void printDetail(){
+    System.out.println("Vehicle details: ");
+  }
+  
+}
+class car extends vehicle{
+  String fuelType;
+  String color;
+  public void printDetail(){
+    System.out.println("Car details: ");
+    System.out.println("carFuelTupe: "+fuelType);
+
+    System.out.println("Car color: "+color);
+  }
+}
+class OverridingMethods{
+  public static void main(String[] args) {
+    car obj = new car();
+    obj.fuelType = "Petrol";
+    obj.color = "Red";
+    obj.printDetail();
   }
 }
