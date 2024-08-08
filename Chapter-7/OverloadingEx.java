@@ -37,7 +37,7 @@ public class OverloadingEx {
     c.calculate();
     c.calculate(c.r);
     square s= new square(4);
-    s.calculate();
+    s.calculate(s.a);
 
   }
 }
