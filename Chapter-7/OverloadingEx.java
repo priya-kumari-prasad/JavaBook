@@ -34,6 +34,10 @@ public class OverloadingEx {
 
   public static void main(String[] args) {
     circle c = new circle(2);
+    c.calculate();
+    c.calculate(c.r);
+    square s= new square(4);
+    s.calculate();
 
   }
 }
