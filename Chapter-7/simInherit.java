@@ -5,11 +5,11 @@ class superclass{
 
   }
 }
-class subclass{
+class subclass extends superclass{
   String i = "Inheritance ";
   public subclass(){
     super();
-    System.out.println("Subclass method "+i);
+    System.out.println("Subclass method: "+i);
   }
 }
 
