@@ -47,6 +47,7 @@ class car extends vehicle{
   String fuelType;
   String color;
   public void printDetail(){
+    super.printDetail();
     System.out.println("Car details: ");
     System.out.println("carFuelTupe: "+fuelType);
 

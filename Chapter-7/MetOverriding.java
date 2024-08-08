@@ -8,6 +8,7 @@ class company{
 class branch extends company{
   String bname, place;
   public void printCompany(){
+    super.printCompany();
     System.out.println("Company name: "+name);
     System.out.println("Sector: "+Sector);
     System.out.println("Head office : "+headOffice);
