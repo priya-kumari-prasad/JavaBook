@@ -29,3 +29,15 @@ class cheque extends payment{
     chequeType = chequeType;
   }
 }
+public class SingleInherit {
+
+  public static void main(String[] args) {
+    cheque c1 = new cheque();
+    c1.setPaymentId(15);
+    c1.setAmount(2600);
+    c1.setChequeType("SBI");
+    System.out.println("Payment id : "+c1.getPaymentId());
+    System.out.println("Payment amount = "+c1.getAmount());
+    System.out.println("Payment Cheque type : "+c1.getChequeType());
+  }
+}
