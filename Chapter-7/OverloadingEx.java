@@ -33,6 +33,7 @@ class square extends shapes{
 public class OverloadingEx {
 
   public static void main(String[] args) {
-    
+    circle c = new circle(2);
+
   }
 }
