@@ -21,7 +21,7 @@ class square extends shapes{
   square (int a){
     this.a = a;
     }
-    public void calculate(int a){
+    public void calculate(){
       area = a*a;
       System.out.println("Area of Square = "+area);
     }
@@ -37,7 +37,7 @@ public class OverloadingEx {
     c.calculate();
     c.calculate(c.r);
     square s= new square(4);
-    s.calculate(s.a);
+    s.calculate();
 
   }
 }
