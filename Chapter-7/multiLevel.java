@@ -25,7 +25,7 @@ class cheque extends payment{
     return ChequeType;
   }
   public void setChequeType(String chequeType){
-    chequeType = ChequeType;
+    ChequeType = chequeType;
   }
 }
 
@@ -37,7 +37,7 @@ class CreditCard extends cheque{
     return CreditCardType;
   }
   public void setCreditCardType(String creditCardType){
-    creditCardType = CreditCardType;
+    CreditCardType = creditCardType;
   }
 }
 
