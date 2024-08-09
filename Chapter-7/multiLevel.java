@@ -54,6 +54,6 @@ public class multiLevel {
     c1.setCreditCardType("VISA");
 
     System.out.println("payment id = "+c1.getPaymentId());
-    System.out.println("Payment amount = "+c1.getAmount());
+    System.out.println("Payment amount = "+c1.getAmount() );
   }
 }
