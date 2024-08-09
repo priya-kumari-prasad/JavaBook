@@ -48,5 +48,12 @@ public class multiLevel {
 
   public static void main(String[] args) {
     CreditCard c1 = new CreditCard();
+    c1.setPaymentId(15);  //baseclass method
+    c1.setAmount(2600);
+    c1.setChequeType("SBI");
+    c1.setCreditCardType("VISA");
+
+    System.out.println("payment id = "+c1.getPaymentId());
+    System.out.println("Payment amount = "+c1.getAmount());
   }
 }
