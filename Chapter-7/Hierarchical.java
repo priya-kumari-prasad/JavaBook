@@ -41,9 +41,8 @@ class CreditCard extends payment{
   public String getCreditCardType(){
     return CreditCardType;
   } 
-  public Void setCreditCardType(String creditCardType){
-    creditCardType = CreditCardType;
-    return null;
+  public void setCreditCardType(String creditCardType){
+    CreditCardType = creditCardType;
   }
 }
 
