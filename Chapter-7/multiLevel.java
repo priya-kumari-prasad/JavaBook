@@ -55,5 +55,7 @@ public class multiLevel {
 
     System.out.println("payment id = "+c1.getPaymentId());
     System.out.println("Payment amount = "+c1.getAmount() );
+    System.out.println("Check Type = "+c1.getChequeType());
+    System.out.println("Check Credit Card Type = "+c1.getCreditCardType());
   }
 }  
