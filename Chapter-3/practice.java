@@ -1,4 +1,4 @@
-import java.util.Scanner;
+/* import java.util.Scanner;
 
 class factors {
   public static void main(String args[]){
@@ -18,16 +18,22 @@ class factors {
       System.out.println();
       
   }
-}
+} */
 
 
 
-/* import java.util.Scanner;
+import java.util.Scanner;
 class palindrome{
   public static void main(String args[]){
     int n, rev= 0;
     Scanner sc = new Scanner(System.in);
+    System.out.println("Enter Number: ");
     n = sc.nextInt();
-    
+    while(n>0){
+      rev = n%10;
+      System.out.print(rev);
+      n = n/10;
+    }
+
   }
-} */
+}
