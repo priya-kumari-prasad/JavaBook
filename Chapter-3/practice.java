@@ -34,6 +34,11 @@ class palindrome{
       System.out.print(rev);
       n = n/10;
     }
+    if(rev == n){
+      System.out.println(n +" is Palindrome.");
+    }
+    else
+      System.out.println(n+" is not Palindrome.");
 
   }
 }
